@@ -1,10 +1,35 @@
 <Page>
     <GridLayout rows='*,*,*' columns='*,*' width='300' height='450'>
-        <Label row='0' col='0' text='Couch Commander' textWrap='true' style='background-color: #CCCCCC'/>
-        <Label row='0' col='1' text='Mummy Madness' textWrap='true' style='background-color: #EEEEEE' />
-        <Label row='1' col='0' text='Pyro Robots' textWrap='true' style='background-color: #EEEEEE' />
-        <Label row='1' col='1' text='Rescue Pups' textWrap='true' style='background-color: #CCCCCC' />
-        <Label row='2' col='0' text='Super Marshmallow Man' textWrap='true' style='background-color: #CCCCCC' />
-        <Label row='2' col='1' text='Vampire Valkyrie' textWrap='true' style='background-color: #EEEEEE' />
+        <StackLayout row='2' col='0' style='background-color: #CCCCCC' rowspan='1' colspan='2'>
+            <Label  text='Super Marshmallow Man' textWrap='true'  />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='Escape from certain death in this epic adventure'/>
+            <Label text='On Sale! $14.99' /> 
+        </StackLayout>
+        <StackLayout row='0' col='0' style='background-color: #CCCCCC'>
+            <Label  text='Couch Commander' textWrap='true' />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='$24.99' />            
+        </StackLayout>
+        <StackLayout row='0' col='1' style='background-color: #EEEEEE'>
+            <Label text='Mummy Madness' textWrap='true' />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='$24.99' /> 
+        </StackLayout>
+        <StackLayout row='1' col='0' style='background-color: #EEEEEE'>
+            <Label  text='Pyro Robots' textWrap='true'  />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='$24.99' /> 
+        </StackLayout>
+        <StackLayout row='1' col='1' style='background-color: #CCCCCC'>
+            <Label  text='Rescue Pups' textWrap='true'  />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='$24.99' /> 
+        </StackLayout>
+        <StackLayout row='2' col='1' style='background-color: #EEEEEE'>
+            <Label  text='Vampire Valkyrie' textWrap='true'  />
+            <Img src='res://couchcommander' width='75' height='75' />
+            <Label text='$24.99' /> 
+        </StackLayout> 
     </GridLayout>
 </Page>
