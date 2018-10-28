@@ -10,5 +10,16 @@ function onTap(){
     frameModule.getFrameById('topmost').navigate(navigationEntry);
 }
 
+function onTapContact(){
+    var navigationEntry ={
+        moduleName: './views/contact-us/contact-us',
+        transition: {
+            name: 'flipRight'
+        }
+    };
+    frameModule.getFrameById('topmost').navigate(navigationEntry);
+}
+
 
 exports.onTap = onTap;
+exports.onTapContact = onTapContact;
