@@ -6,3 +6,27 @@
 .tile-title{
     background-color: #99ccff; 
 }
+
+.tile-title Label {
+    font-size: 14;
+    color: black;
+    margin-top: 5;
+}
+.price {
+    color: #009933;
+    text-align: right;
+}
+
+.highlight .tile-title {       
+    font-weight: bold;         
+    background-color: #6699ff;  
+}
+
+.highlight .tile-title Label { 
+    font-size: 18; 
+} 
+
+.highlight .price {             
+    font-weight: bold;          
+    color: red;               
+}
