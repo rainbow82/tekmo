@@ -6,5 +6,5 @@
             <TextView hint='Enter the message...'/>
             <Button text='Submit' tap='onTap'/>
         </StackLayout>
-    </ScrollView >
+    </ScrollView>
 </Page>

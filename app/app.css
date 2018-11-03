@@ -12,10 +12,29 @@ The imported CSS rules must precede all other types of rules.
 */
 @import '~nativescript-theme-core/css/core.light.css';
 
-/*
-The following CSS rule changes the font size of all UI
-components that have the btn class name.
-*/
-.btn {
-    font-size: 18;
+
+Page {
+    background-color: #EFEFEF;
 }
+
+Label{
+    margin: 0 10 10 10;
+}
+
+button {
+    font-size: 18;
+    horizontal-align: center;
+}
+
+.title{
+    font-size: 30;
+    horizontal-align: center;
+    margin: 20;
+}
+
+.sub-title {
+    font-size: 20;
+}
+
+
+

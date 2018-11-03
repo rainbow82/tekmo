@@ -1,7 +1,8 @@
 <Page loaded="pageLoaded">
     <StackLayout>
-        <Label text='Welcome to the Tekmo App!' /> 
+        <Label text='Welcome to the Tekmo App!' class='title' /> 
         <Button text='About' tap='onTap'/>
         <Button text='Contact' tap='onTapContact'/>
+         <Button text='Products' tap='onTapProducts'/>
     </StackLayout>
 </Page>
