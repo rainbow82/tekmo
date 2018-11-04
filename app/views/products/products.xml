@@ -4,12 +4,11 @@
             <StackLayout class='tile-title'>
                 <Label  text='Super Marshmallow Man' textWrap='true'  />
             </StackLayout>
-            <Image src='~/images/super-marshallow-man.png' width='75' height='75' />
+            <Image src='~/images/super-marshmallow-man.png' width='75' height='75' />
             <Label text="Escape from certain death in this wild adventure! Battle the
    forces of evil, but don't melt!" textWrap='true'/>
             <Label text='On Sale! $14.99' class='price'/> 
         </StackLayout>
-
         <StackLayout row='1' col='0' class='tile'>
         <StackLayout class='tile-title'>
              <Label  text='Pyro Robots' textWrap='true'  />
