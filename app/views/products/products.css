@@ -1,3 +1,9 @@
+Image{
+    width: 80;
+    height: 80;
+    margin: 5 0 0 0;
+}
+
 .tile {
     background-color: #FFFFFF;
     margin: 2;
@@ -29,4 +35,9 @@
 .highlight .price {             
     font-weight: bold;          
     color: red;               
+}
+
+.highlight Image{
+    width: 100;
+    height: 100;
 }
